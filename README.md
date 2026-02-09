@@ -4,9 +4,7 @@ Kata sobre Programación Orientada a Objetos
 
 Código en: 
 
-Python -> https://github.com/dfleta/dni
-
-Java -> https://github.com/dfleta/Java 
+Python -> https://github.com/joaq240606fer-collab/SOLID-DNI-KATA---SRP-y-OCP-.git
 
 ### Documentación
 
