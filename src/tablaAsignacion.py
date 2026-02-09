@@ -42,3 +42,11 @@ class TablaAsignacion():
     
     def isLetraPermitida(self, letra):
         return letra in self.getTabla()
+    
+    def calcularLetra(self, numero_dni):
+        try :
+            numero_dni = int(numero_dni)
+            posicion = numero_dni % self.getModulo()
+            return self.getLetra(posicion)
+        except ValueError:
+            return "el DNI no es un numero valido"
