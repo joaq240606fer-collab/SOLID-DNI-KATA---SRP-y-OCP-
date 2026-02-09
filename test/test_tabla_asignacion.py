@@ -11,7 +11,7 @@ def tablaAsignacion():
 
 def test_getTabla(tabla):
 
-    assert tabla.getTabla() == [
+    assert tabla.getTabla() ==[
         "T",
         "R",
         "W",
