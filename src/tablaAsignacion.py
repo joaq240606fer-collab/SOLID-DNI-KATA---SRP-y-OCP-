@@ -37,3 +37,5 @@ class TablaAsignacion():
             return self.tabla[posicion]
         except IndexError:
             return "Posicion letra fuera de rango"
+    def getModulo(self): 
+        return len(self.getTabla()) 
