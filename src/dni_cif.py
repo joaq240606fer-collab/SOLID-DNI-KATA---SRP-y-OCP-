@@ -16,10 +16,3 @@ class Dni():
     def getLetraSana(self):
         return self.letra
     
-    def checkDni(self):
-
-    def checkLetra(self):
-
-
-    def checkCIF(self):
-        return self.checkDni() and self.checkLetra()
