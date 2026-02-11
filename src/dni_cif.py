@@ -1,11 +1,11 @@
-from tablaAsignacion import *
+from src.tablaAsignacion import *
 
 class Dni:
 	def __init__(self, cadena = ""):
 		self.dni  = cadena
 		self.numeroSano = False
 		self.letraSana 	= False
-		# Composición (agregación) "Has - a" / "Tiene - un"
+		# "Has - a" / "Tiene - un"
 		self.tabla = TablaAsignacion()
 
 	### interfaz PUBLICA ###
@@ -49,7 +49,7 @@ class Dni:
 		if self.getNumeroSano():
 			return self.tabla.calcularLetra( self.getParteNumericaDni() )
 		else:
-			return False
+			return None
 
 	### parte PRIVADA ###
 
